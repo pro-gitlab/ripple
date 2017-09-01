@@ -1,6 +1,6 @@
 {
     "name": "gitlab/ripple",
-    "type": "package",
+    "type": "library",
     "license": "MIT",
     "keywords": ["admin-panel", "laravel", "laravel-package", "laravel-admin"],
     "authors": [
@@ -20,7 +20,6 @@
             "GitLab\\Ripple\\": "src/"
         }
     },
-    "minimum-stability":"dev",
     "extra":{
     "laravel":{
             "providers":[
