@@ -1,6 +1,6 @@
 {
     "name": "gitlab/ripple",
-    "type": "metapackage",
+    "type": "package",
     "license": "MIT",
     "keywords": ["admin-panel", "laravel", "laravel-package", "laravel-admin"],
     "authors": [
@@ -9,7 +9,6 @@
             "email": "yashpalmnd@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
         "doctrine/dbal": "^2.5"
@@ -21,6 +20,7 @@
             "GitLab\\Ripple\\": "src/"
         }
     },
+    "minimum-stability":"stable",
     "extra":{
     "laravel":{
             "providers":[
