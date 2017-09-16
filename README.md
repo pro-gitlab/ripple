@@ -19,7 +19,7 @@ composer require gitlab/ripple:"dev-master"
 
 After installing Ripple Make sure you have running database connection that you can create by setting up your database details in your <code>.env</code> file
 
-If you are running below laravel v5.5 then you have to add <strong>Ripple Service Provider</strong> in your <code>config/app.php</code> file in the <code>providers</code> array.
+If your application is running below laravel v5.5 then you have to add <strong>Ripple Service Provider</strong> in your <code>config/app.php</code> file in the <code>providers</code> array.
 
 ```php
 
