@@ -1,6 +1,6 @@
 {
     "name": "gitlab/ripple",
-    "type": "package",
+    "type": "library",
     "description": "The Laravel Framework Admin Panel.",
     "license": "MIT",
     "keywords": ["admin-panel", "laravel", "laravel-package", "laravel-admin"],
@@ -10,7 +10,6 @@
             "email": "yashpalmnd@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
         "doctrine/dbal": "^2.5"
